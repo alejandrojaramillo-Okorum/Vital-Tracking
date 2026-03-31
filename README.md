@@ -14,7 +14,7 @@
 
 ---
 
-# Base de Datos — Supabase
+# 📋 Base de Datos — Supabase
 
 ### Tabla `profiles` — Usuarios del sistema
 ![Tabla profiles en Supabase](./screenshots/supabase-profiles.png)
