@@ -1,5 +1,3 @@
-Aquí tienes el `README.md` ajustado con emojis en todos los títulos:
-
 ```markdown
 # ❤️ VitalTrack — Monitoreo Inteligente de Presión Arterial
 
