@@ -1,3 +1,6 @@
+Aquí tienes el `README.md` ajustado con emojis en todos los títulos:
+
+```markdown
 # ❤️ VitalTrack — Monitoreo Inteligente de Presión Arterial
 
 [![Open in Bolt](https://bolt.new/static/open-in-bolt.svg)](https://bolt.new/~/sb1-fjzksx5u)
@@ -16,7 +19,7 @@
 
 # 📋 Base de Datos — Supabase
 
-### Tabla `profiles` — Usuarios del sistema
+### 📄 Tabla `profiles` — Usuarios del sistema
 ![Tabla profiles en Supabase](./screenshots/supabase-profiles.png)
 
 > Almacena el perfil de cada usuario autenticado: nombre completo, email,
@@ -24,7 +27,7 @@
 
 ---
 
-### Tabla `blood_pressure_logs` — Historial de mediciones
+### 📊 Tabla `blood_pressure_logs` — Historial de mediciones
 ![Tabla blood_pressure_logs en Supabase](./screenshots/supabase-logs.png)
 
 > Registra cada medición del paciente con sistólica, diastólica, ritmo
@@ -32,7 +35,7 @@
 
 ---
 
-# Stack Tecnológico
+# 🚀 Stack Tecnológico
 
 | Capa | Tecnología | Propósito |
 |------|-----------|-----------|
@@ -46,16 +49,17 @@
 
 ---
 
-# APIs Externas Integradas
+# 🌐 APIs Externas Integradas
 
 | API | Proveedor | Uso en la app | Gratuita |
 |-----|-----------|---------------|----------|
 | **Open-Meteo** | Open-Meteo.com | Temperatura, humedad, presión atmosférica | ✅ |
 | **Nominatim OSM** | OpenStreetMap | Geocodificación inversa (ciudad/estado) | ✅ |
 | **Open Food Facts** | OFF Database | Datos nutricionales y Nutri-Score | ✅ |
+
 ---
 
-# Estructura del Proyecto
+# 📂 Estructura del Proyecto
 
 ```
 vital-track/
@@ -92,7 +96,7 @@ vital-track/
 
 ---
 
-# Esquema de Base de Datos
+# 📊 Esquema de Base de Datos
 
 ### `profiles`
 ```sql
@@ -273,7 +277,7 @@ npm run preview
 
 ---
 
-## Seguridad
+## 🔐 Seguridad
 
 - ✅ **Row Level Security (RLS)** activado en todas las tablas
 - ✅ **JWT Tokens** manejados automáticamente por Supabase Auth
@@ -283,7 +287,7 @@ npm run preview
 
 ---
 
-## Responsividad
+## 📱 Responsividad
 
 | Breakpoint | Layout |
 |-----------|--------|
@@ -293,7 +297,7 @@ npm run preview
 
 ---
 
-## Scripts Disponibles
+## 🧪 Scripts Disponibles
 
 ```bash
 npm run dev        # Servidor de desarrollo (localhost:5173)
@@ -304,7 +308,7 @@ npm run lint       # Verificación ESLint + TypeScript
 
 ---
 
-## Contribuciones
+## 🤝 Contribuciones
 
 1. Haz **fork** del repositorio
 2. Crea una rama: `git checkout -b feature/nueva-funcionalidad`
@@ -314,7 +318,7 @@ npm run lint       # Verificación ESLint + TypeScript
 
 ---
 
-## Disclaimer Médico
+## ⚠️ Disclaimer Médico
 
 > VitalTrack es una herramienta de **monitoreo informativo** y **no reemplaza**
 > el diagnóstico ni el tratamiento médico profesional. Siempre consulte a su
@@ -323,7 +327,7 @@ npm run lint       # Verificación ESLint + TypeScript
 
 ---
 
-## Licencia
+## 📄 Licencia
 
 Este proyecto está bajo la licencia **MIT**.
 Consulta el archivo [LICENSE](./LICENSE) para más detalles.
@@ -338,3 +342,4 @@ Consulta el archivo [LICENSE](./LICENSE) para más detalles.
     </a>
   </p>
 </div>
+```
