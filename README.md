@@ -14,7 +14,7 @@
 
 ---
 
-## Base de Datos — Supabase
+# Base de Datos — Supabase
 
 ### Tabla `profiles` — Usuarios del sistema
 ![Tabla profiles en Supabase](./screenshots/supabase-profiles.png)
@@ -32,7 +32,7 @@
 
 ---
 
-## Stack Tecnológico
+# Stack Tecnológico
 
 | Capa | Tecnología | Propósito |
 |------|-----------|-----------|
@@ -46,7 +46,7 @@
 
 ---
 
-## APIs Externas Integradas
+# APIs Externas Integradas
 
 | API | Proveedor | Uso en la app | Gratuita |
 |-----|-----------|---------------|----------|
@@ -55,7 +55,7 @@
 | **Open Food Facts** | OFF Database | Datos nutricionales y Nutri-Score | ✅ |
 ---
 
-## Estructura del Proyecto
+# Estructura del Proyecto
 
 ```
 vital-track/
@@ -92,7 +92,7 @@ vital-track/
 
 ---
 
-## 🗃️ Esquema de Base de Datos
+# Esquema de Base de Datos
 
 ### `profiles`
 ```sql
