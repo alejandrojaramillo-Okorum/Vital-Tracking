@@ -14,11 +14,11 @@
 > estadístico, exportación médica en PDF y una interfaz oscura completamente responsiva.
 
 ---
-
 # 📋 Base de Datos — Supabase
 
 ### 📄 Tabla `profiles` — Usuarios del sistema
-![Tabla profiles en Supabase](./screenshots/supabase-profiles.png)
+<img width="1440" height="474" alt="Captura de pantalla 2026-03-31 a la(s) 10 02 00 a m" src="https://github.com/user-attachments/assets/503b81aa-d703-4b99-a363-c382678c5063" />
+<img width="1419" height="296" alt="Captura de pantalla 2026-03-31 a la(s) 10 02 18 a m" src="https://github.com/user-attachments/assets/e5619091-ae64-4443-87f2-4dd99cd07458" />
 
 > Almacena el perfil de cada usuario autenticado: nombre completo, email,
 > preferencias de modo oscuro y alertas de correo electrónico.
