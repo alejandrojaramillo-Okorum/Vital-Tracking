@@ -1,4 +1,4 @@
-```markdown
+
 # ❤️ VitalTrack — Monitoreo Inteligente de Presión Arterial
 
 [![Open in Bolt](https://bolt.new/static/open-in-bolt.svg)](https://bolt.new/~/sb1-fjzksx5u)
@@ -340,4 +340,3 @@ Consulta el archivo [LICENSE](./LICENSE) para más detalles.
     </a>
   </p>
 </div>
-```
