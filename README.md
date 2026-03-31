@@ -25,7 +25,7 @@
 ---
 
 ### 📊 Tabla `blood_pressure_logs` — Historial de mediciones
-![Tabla blood_pressure_logs en Supabase](./screenshots/supabase-logs.png)
+<img width="1440" height="474" alt="Captura de pantalla 2026-03-31 a la(s) 10 02 00 a m" src="https://github.com/user-attachments/assets/f8f5d6d8-7565-4ba2-b2e4-9960d17f3be7" />
 
 > Registra cada medición del paciente con sistólica, diastólica, ritmo
 > cardíaco, estado clínico calculado y timestamp con zona horaria.
