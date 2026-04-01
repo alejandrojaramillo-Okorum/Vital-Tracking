@@ -8,14 +8,14 @@ import ChartSection from './components/ChartSection';
 import ExportPDF from './components/ExportPDF';
 import type { BloodPressureLog } from './lib/supabase';
 
-function getStatus(sys: number, dia: number): { label: string; color: string; bg: string } {
+function getStatus(sys: number, dia: number): { label: string; color: string; bg: string; dbValue: string } {
   if (sys < 120 && dia < 80)
-    return { label: '✅ Normal', color: 'text-green-600', bg: 'bg-green-50 dark:bg-green-900/20' };
+    return { label: '✅ Normal', color: 'text-green-600', bg: 'bg-green-50 dark:bg-green-900/20', dbValue: 'Normal' };
   if (sys < 130 && dia < 80)
-    return { label: '⚠️ Elevada', color: 'text-yellow-600', bg: 'bg-yellow-50 dark:bg-yellow-900/20' };
+    return { label: '⚠️ Elevada', color: 'text-yellow-600', bg: 'bg-yellow-50 dark:bg-yellow-900/20', dbValue: 'Elevada' };
   if (sys < 140 || dia < 90)
-    return { label: '🟠 Hipertensión I', color: 'text-orange-600', bg: 'bg-orange-50 dark:bg-orange-900/20' };
-  return { label: '🔴 Hipertensión II', color: 'text-red-600', bg: 'bg-red-50 dark:bg-red-900/20' };
+    return { label: '🟠 Hipertensión I', color: 'text-orange-600', bg: 'bg-orange-50 dark:bg-orange-900/20', dbValue: 'Hipertensión' };
+  return { label: '🔴 Hipertensión II', color: 'text-red-600', bg: 'bg-red-50 dark:bg-red-900/20', dbValue: 'Hipertensión' };
 }
 
 // ─── CLIMA WIDGET ──────────────────────────────────────────────────────────────
