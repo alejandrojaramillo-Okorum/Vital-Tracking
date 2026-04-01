@@ -357,7 +357,7 @@ export default function App() {
       systolic: sys,
       diastolic: dia,
       heart_rate: hr,
-      status: statusData.label.replace(/[^\w\s]/gi, '').trim(),
+      status: statusData.dbValue,
     });
     if (!error) {
       setSystolic(''); setDiastolic(''); setHeartRate('');
