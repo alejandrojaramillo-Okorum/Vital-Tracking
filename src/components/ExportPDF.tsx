@@ -44,7 +44,7 @@ export default function ExportPDF({ logs, userName }) {
     const mid   = Math.floor(logs.length / 2);
     const first = avg(logs.slice(0, mid).map(l => l.systolic));
     const last  = avg(logs.slice(mid).map(l => l.systolic));
-    const diff  = last - first;
+    const diff  = first - last;
     if (diff > 5)  return { label: `Tendencia al alza (+${diff} mmHg)`,   icon: '↑', color: '#ef4444' };
     if (diff < -5) return { label: `Tendencia a la baja (${diff} mmHg)`, icon: '↓', color: '#22c55e' };
     return             { label: 'Tendencia estable',                      icon: '→', color: '#f59e0b' };
